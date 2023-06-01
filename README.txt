@@ -13,3 +13,5 @@ when we do git status and we see a bunch of untracked files then these are actua
 12. `git log` --> To see all of the commits or list down all the commits of the repository
 13. If you want to get out of the git log then press q
 14. `git restore <file>` --> delete everything which is in staging area but not commited.this can be useful, if we did some dirty piece of code and now no more want it. Instead of changing line by line we can restore it or you can say restore last clean version of the file.
+15. `git restore --staged <file>` --> It removes file from changes from staging area to the working area.
+this only works if changes are in your staging area.
