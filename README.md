@@ -25,4 +25,6 @@ ANS. if you want to move the whole file back to the untracked state, then we do 
 18. `git remote rename <oldname> <newname>` --> this command rnames the remote connection
 19. Note: The name of the remote connection is always used to establish commnication between the repositories
 20. `git add <file1> <file2> <file3>` --> This command will add multiple files changes together in the staging area.
-21. `git add . `--> This command will add all the files from working repo to staging area
+21. `git add . `--> This command will add all the files from working repo to staging area.
+22. `git pull <remote name> <branch name>` --> downloads latest changes from the branch of the mentioned remote in your local repo.
+
