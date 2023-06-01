@@ -35,4 +35,6 @@ ANS. if you want to move the whole file back to the untracked state, then we do 
  - git pull
  - git push
 
+ Merge conflicts are very common scenarios 
+
  Merge Conflicts can occur if multiplepeople try to make changes to the same file and collaborate.
