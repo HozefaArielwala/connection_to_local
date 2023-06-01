@@ -34,3 +34,5 @@ ANS. if you want to move the whole file back to the untracked state, then we do 
  - git commit
  - git pull
  - git push
+
+ Merge conflicts are very common scenarios 
