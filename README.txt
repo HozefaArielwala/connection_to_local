@@ -18,3 +18,9 @@ this only works if changes are in your staging area.
 12. Diff Between git rm and git restore
 ANS. if you want to move the whole file back to the untracked state, then we do git rm , otherwise if we just want the changes to be removed in working area or staging area then we do git restore.
 13. `git commit -m "<Your_commit_message>"` --> If we want to avoid opening a  text editor like vim/nano to add commit message we can use theis following command
+14. `git remote` --> List down all the remote connection names
+15. Remote Connection --> It helps you to link two git repositories for uploading and downloading changes from each otherwise.
+16. `git remote add <add name of remote > <link of the remote>` --> This command helps us to add a new link to the remote repo and give a name to it.
+17. `git remote rm <name of the remote>` --> This command deletes a remote connection.
+18. `git remote rename <oldname> <newname>` --> this command rnames the remote connection
+19. Note: The name of the remote connection is always used to establish commnication between the repositories
