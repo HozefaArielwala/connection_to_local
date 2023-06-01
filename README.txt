@@ -16,4 +16,5 @@ when we do git status and we see a bunch of untracked files then these are actua
 15. `git restore --staged <file>` --> It removes file from changes from staging area to the working area.
 this only works if changes are in your staging area.
 12. Diff Between git rm and git restore
-ANS. f you want to move the whole file back to the untracked state, then we do git rm , otherwise if we just want the changes to be removed in working area or staging area then we do git restore.
+ANS. if you want to move the whole file back to the untracked state, then we do git rm , otherwise if we just want the changes to be removed in working area or staging area then we do git restore.
+13. `` --> If we want to avoid opening a  text editor like vim/nano to add commit message we can use theis following command
